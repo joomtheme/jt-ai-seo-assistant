@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <changelogs>
-    <changelog>
-        <element>jtaiseoassistant</element>
-        <type>plugin</type>
-        <version>0.1.6</version>
-        <fix>
-            <item>Added an update server URL to the plugin manifest.</item>
-            <item>Added a changelog URL to the plugin manifest.</item>
-            <item>Added a GPL-compatible header to the main plugin class.</item>
-            <item>Improved Turkish admin translations for the API key field and About tab.</item>
-            <item>Renamed the basic fieldset label to Plugin Settings.</item>
-        </fix>
-        <note>
-            <item>Edit the GitHub URLs if you use a different repository name or release path.</item>
-            <item>The checksum values in update.xml match the ZIP generated for version 0.1.6.</item>
-        </note>
-    </changelog>
-    <changelog>
-        <element>jtaiseoassistant</element>
-        <type>plugin</type>
-        <version>0.1.5</version>
-        <addition>
-            <item>Added a new About fieldset to the plugin configuration.</item>
-            <item>Added usage notes and support information inside the plugin settings.</item>
-        </addition>
-    </changelog>
+	<changelog>
+		<element>jtaiseoassistant</element>
+		<type>plugin</type>
+		<version>0.1.6</version>
+		<fix>
+			<item>Added update server support to the plugin manifest.</item>
+			<item>Added changelog URL support to the plugin manifest.</item>
+			<item>Added a GPL-compatible license header to the main plugin class.</item>
+			<item>Improved Turkish administrator translations for the API key field and About tab.</item>
+			<item>Renamed the basic settings fieldset label to Plugin Settings.</item>
+		</fix>
+		<note>
+			<item>Update the GitHub URLs if you use a different repository name or release path.</item>
+			<item>The checksum values in update.xml match the ZIP package generated for version 0.1.6.</item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>jtaiseoassistant</element>
+		<type>plugin</type>
+		<version>0.1.5</version>
+		<addition>
+			<item>Added a new About fieldset to the plugin configuration.</item>
+			<item>Added usage notes and support information to the plugin settings screen.</item>
+		</addition>
+	</changelog>
 </changelogs>
