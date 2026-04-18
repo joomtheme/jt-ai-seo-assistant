@@ -19,9 +19,7 @@
         <maintainer>JoomTheme</maintainer>
         <maintainerurl>https://github.com/joomtheme</maintainerurl>
         <sha256>f0a34d5ab11fdbcba7438d9d5fedf26441f6c59642a179f3f22d84ae90ffcc04</sha256>
-        <sha384>ee1f2bee9261d65cc932dd4faacb13e6b73802d71f5bf9a6af02b98e33ac817d9858b5d75f8e7bf7a08d93a4b75e513a</sha384>
-        <sha512>fdf5226655810fcab881d16b2d26e062519dfb95e75274a3133100ffdd007f72b95ccbdb36eb7900c92d04cd70ce7d26b26ace314e4a2f6c6ee347a5ac9eecb9</sha512>
         <php_minimum>8.1</php_minimum>
-        <targetplatform name="joomla" version="((6\.(1|2|3|4|5|6|7|8|9))|(7\.(0|1|2|3|4|5|6|7|8|9)))" />
+        <targetplatform name="joomla" version="6\.[0-9]+" />
     </update>
 </updates>
