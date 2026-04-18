@@ -86,8 +86,6 @@ The plugin includes:
 
 Developed by **JoomTheme**.
 
-This plugin was also prepared with the assistance of **OpenAI ChatGPT**, helping with planning, structure, code refinement, language improvements, and documentation.
-
 ## License
 
 This plugin is released under the **GNU General Public License version 2 or later (GPL-2.0-or-later)**.
