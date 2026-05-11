@@ -1,4 +1,5 @@
-# “Simple, clean, lightweight, and functional — exactly what is becoming rare in the Joomla ecosystem today.”
+## Simple. Clean. Lightweight. Functional.
+## AI-powered SEO assistance for Joomla!.
 
 # JT AI SEO Assistant
 
