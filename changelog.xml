@@ -3,6 +3,33 @@
 	<changelog>
 		<element>jtaiseoassistant</element>
 		<type>plugin</type>
+		<version>0.1.7</version>
+		<addition>
+			<item>Added improved multilingual metadata generation.</item>
+			<item>Added Croatian metadata language option.</item>
+			<item>Added automatic metadata language mode to keep output in the same language as the article content.</item>
+			<item>Added custom metadata language option for multilingual websites.</item>
+		</addition>
+		<change>
+			<item>Improved prompt instructions to reduce mixed-language output in meta descriptions and keywords.</item>
+			<item>Updated language handling so non-Turkish content no longer falls back to English by default.</item>
+			<item>Improved support for Joomla 6 multilingual editorial workflows.</item>
+		</change>
+		<fix>
+			<item>Fixed an issue where Croatian articles could generate mostly English meta descriptions.</item>
+			<item>Fixed an issue where generated keywords could be mixed between Croatian and English.</item>
+			<item>Fixed language handling behavior for non-English and non-Turkish article content.</item>
+		</fix>
+		<note>
+			<item>For Croatian websites, set Metadata language to Croatian or Automatic - same as article content.</item>
+			<item>For multilingual websites, the Automatic - same as article content option is recommended.</item>
+			<item>This is still an early 0.x release, but it includes an important improvement for real-world multilingual publishing workflows.</item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>jtaiseoassistant</element>
+		<type>plugin</type>
 		<version>0.1.6</version>
 		<fix>
 			<item>Added update server support to the plugin manifest.</item>
