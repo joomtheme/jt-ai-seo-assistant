@@ -7,18 +7,18 @@
         <type>plugin</type>
         <folder>content</folder>
         <client>site</client>
-        <version>0.1.6</version>
+        <version>0.1.7</version>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/jt-ai-seo-assistant/main/changelog.xml</changelogurl>
         <infourl title="JoomTheme">https://joomtheme.com</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/joomtheme/jt-ai-seo-assistant/releases/download/v0.1.6/plg_content_jtaiseoassistant_v0.1.6.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/joomtheme/jt-ai-seo-assistant/releases/download/v0.1.7/plg_content_jtaiseoassistant_v0.1.7.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
         </tags>
         <maintainer>JoomTheme</maintainer>
         <maintainerurl>https://github.com/joomtheme</maintainerurl>
-        <sha256>f0a34d5ab11fdbcba7438d9d5fedf26441f6c59642a179f3f22d84ae90ffcc04</sha256>
+        <sha256>677d522b6e7eb7c126ff610491b30efe8b98d573d00713329631623c72068d41</sha256>
         <php_minimum>8.1</php_minimum>
         <targetplatform name="joomla" version="6\.[0-9]+" />
     </update>
