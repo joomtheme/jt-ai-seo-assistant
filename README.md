@@ -1,3 +1,5 @@
+# “Simple, clean, lightweight, and functional — exactly what is becoming rare in the Joomla ecosystem today.”
+
 # JT AI SEO Assistant
 
 **JT AI SEO Assistant** is a Joomla 6 content plugin that helps generate article metadata with OpenAI.
