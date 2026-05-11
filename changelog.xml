@@ -3,6 +3,35 @@
 	<changelog>
 		<element>jtaiseoassistant</element>
 		<type>plugin</type>
+		<version>0.1.8</version>
+		<addition>
+			<item>Added a clearer Output Language field label and description.</item>
+			<item>Added improved Custom Language / Locale guidance for multilingual websites.</item>
+			<item>Added helpful custom language examples such as Serbian Latin, Brazilian Portuguese, Swiss German, and Croatian formal.</item>
+		</addition>
+		<change>
+			<item>Improved the language selection user experience in the plugin configuration.</item>
+			<item>Clarified the difference between predefined output languages and custom language or locale input.</item>
+			<item>Updated project wording to better reflect the Simple. Clean. Lightweight. Functional. direction of the extension.</item>
+		</change>
+		<language>
+			<item>Updated English administrator language strings.</item>
+			<item>Updated Turkish administrator language strings.</item>
+			<item>Updated English and Turkish system language descriptions.</item>
+		</language>
+		<fix>
+			<item>Fixed a small custom language handling issue related to trim().</item>
+		</fix>
+		<note>
+			<item>This release improves the multilingual configuration experience while keeping JT AI SEO Assistant simple, clean, lightweight, and functional.</item>
+			<item>For languages or regional variants not listed in the predefined options, choose Custom Language / Locale and enter the preferred language style manually.</item>
+			<item>This is another small but important step toward the stable 1.0 release.</item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>jtaiseoassistant</element>
+		<type>plugin</type>
 		<version>0.1.7</version>
 		<addition>
 			<item>Added improved multilingual metadata generation.</item>
@@ -31,13 +60,15 @@
 		<element>jtaiseoassistant</element>
 		<type>plugin</type>
 		<version>0.1.6</version>
-		<fix>
+		<addition>
 			<item>Added update server support to the plugin manifest.</item>
 			<item>Added changelog URL support to the plugin manifest.</item>
 			<item>Added a GPL-compatible license header to the main plugin class.</item>
+		</addition>
+		<change>
 			<item>Improved Turkish administrator translations for the API key field and About tab.</item>
 			<item>Renamed the basic settings fieldset label to Plugin Settings.</item>
-		</fix>
+		</change>
 		<note>
 			<item>Update the GitHub URLs if you use a different repository name or release path.</item>
 			<item>The checksum values in update.xml match the ZIP package generated for version 0.1.6.</item>
