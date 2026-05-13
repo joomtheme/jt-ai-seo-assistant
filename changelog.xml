@@ -3,6 +3,30 @@
 	<changelog>
 		<element>jtaiseoassistant</element>
 		<type>plugin</type>
+		<version>0.1.9</version>
+		<addition>
+			<item>Added category-based control for AI metadata generation.</item>
+			<item>Added an option to exclude selected Joomla content categories from automatic meta description and meta keywords generation.</item>
+			<item>Added an option to run AI metadata generation only on selected Joomla content categories.</item>
+		</addition>
+		<change>
+			<item>Improved plugin configuration by giving site owners more control over where AI metadata generation is applied.</item>
+			<item>Kept the default behavior unchanged by running on all categories unless a category rule is configured.</item>
+		</change>
+		<language>
+			<item>Added English administrator language strings for category rule options.</item>
+			<item>Added Turkish administrator language strings for category rule options.</item>
+		</language>
+		<note>
+			<item>This release is especially useful for news portals, editorial websites, obituary sections, and websites with different content workflows.</item>
+			<item>Use Exclude selected categories to prevent AI metadata generation in sensitive or manually managed content sections.</item>
+			<item>Use Run only on selected categories when AI metadata generation should be limited to specific Joomla categories.</item>
+		</note>
+	</changelog>
+
+	<changelog>
+		<element>jtaiseoassistant</element>
+		<type>plugin</type>
 		<version>0.1.8</version>
 		<addition>
 			<item>Added a clearer Output Language field label and description.</item>
