@@ -18,7 +18,7 @@
         </tags>
         <maintainer>JoomTheme</maintainer>
         <maintainerurl>https://github.com/joomtheme</maintainerurl>
-        <sha256>xxx</sha256>
+        <sha256>f00729bf84229bd277ac887176cf80acf82ec4e543044602df458125a3ee2607</sha256>
         <php_minimum>8.1</php_minimum>
         <targetplatform name="joomla" version="6\.[0-9]+" />
     </update>
