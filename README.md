@@ -2,9 +2,9 @@
 
 ## Simple. Clean. Lightweight. Functional.
 
-**AI-powered SEO assistance for Joomla!**
+**AI-powered SEO metadata assistance for Joomla!**
 
-**JT AI SEO Assistant** is a Joomla content plugin that helps generate SEO metadata for articles using the OpenAI API.
+**JT AI SEO Assistant** is a Joomla content plugin that helps generate SEO metadata for Joomla articles using the OpenAI API.
 
 It can automatically create **meta descriptions** when Joomla articles are saved, with optional support for **meta keywords** generation. The plugin is designed to keep the editorial workflow simple while adding practical AI-powered SEO support directly inside Joomla.
 
@@ -18,11 +18,42 @@ It can automatically create **meta descriptions** when Joomla articles are saved
 - Predefined output language options
 - Automatic language mode to keep metadata in the same language as the article content
 - Custom Language / Locale option for languages or regional variants not listed
+- Category-based control for AI metadata generation
+- Option to exclude selected Joomla content categories
+- Option to run the plugin only on selected Joomla content categories
 - Works directly inside the Joomla administrator
 - Configurable OpenAI API key and model
 - Overwrite option for existing metadata
 - Option to process only published articles
 - About tab with usage notes and support links
+
+---
+
+## Category-Based Control
+
+JT AI SEO Assistant includes category-based control for Joomla articles.
+
+This allows site owners, publishers, and editorial teams to decide where AI metadata generation should be applied.
+
+Available category rule modes:
+
+- **Run on all categories**
+  - Default behavior. The plugin works on all Joomla article categories.
+- **Exclude selected categories**
+  - The plugin will not generate meta descriptions or meta keywords for selected categories.
+- **Run only on selected categories**
+  - The plugin will generate metadata only for selected categories.
+
+This is useful for:
+
+- News portals
+- Editorial websites
+- Obituary or deceased people sections
+- Manually curated content areas
+- Sensitive content categories
+- Websites with different publishing workflows
+
+If no category restriction is configured, the plugin keeps the default behavior and runs on all categories.
 
 ---
 
@@ -77,7 +108,7 @@ For multilingual websites, the recommended option is:
 
 ## Configuration
 
-After enabling the plugin, open its settings and configure the following options.
+After enabling the plugin, open its settings and configure the available options.
 
 ### OpenAI API Key
 
@@ -121,6 +152,27 @@ Examples:
 - Swiss German
 - Croatian formal
 
+### Category Rule
+
+Controls how the plugin should behave for Joomla article categories.
+
+Available options:
+
+- **Run on all categories**
+- **Exclude selected categories**
+- **Run only on selected categories**
+
+The default option is **Run on all categories**, so existing websites continue to work as before.
+
+### Categories
+
+Select one or more Joomla content categories for the selected category rule.
+
+This field is used only when the category rule is set to:
+
+- **Exclude selected categories**
+- **Run only on selected categories**
+
 ### Overwrite Existing Metadata
 
 Enable this only if you want existing metadata to be replaced.
@@ -135,15 +187,17 @@ If enabled, metadata is generated only for published articles.
 
 ## How It Works
 
-When an article is saved in Joomla, the plugin checks the article content and metadata fields.
+When an article is saved in Joomla, the plugin checks the article content, metadata fields, publishing state, and configured category rule.
 
 If enabled and properly configured, the plugin can:
 
-- generate a missing meta description
-- optionally generate meta keywords
-- generate metadata in the selected language
-- preserve existing metadata when overwrite is disabled
-- skip unpublished articles when configured to do so
+- Generate a missing meta description
+- Optionally generate meta keywords
+- Generate metadata in the selected language
+- Preserve existing metadata when overwrite is disabled
+- Skip unpublished articles when configured to do so
+- Skip excluded categories
+- Run only on selected categories when configured
 
 This helps improve article metadata during the normal Joomla editorial workflow without adding unnecessary complexity.
 
@@ -156,6 +210,21 @@ This helps improve article metadata during the normal Joomla editorial workflow 
 - You must provide your own **OpenAI API key**.
 - If your API account has no active billing or available credit, metadata generation will fail.
 - Generated metadata should be reviewed by an editor before publishing on production websites.
+- Category-based rules apply to Joomla article categories and are intended to give publishers more control over where AI metadata generation is used.
+
+---
+
+## Use Cases
+
+JT AI SEO Assistant can be useful for:
+
+- Blogs
+- News portals
+- Magazine websites
+- Multilingual Joomla websites
+- Editorial publishing workflows
+- Websites with many existing articles
+- Websites that need controlled AI metadata generation by category
 
 ---
 
@@ -164,6 +233,7 @@ This helps improve article metadata during the normal Joomla editorial workflow 
 - **Website:** [JoomTheme](https://joomtheme.com)
 - **Contact:** support@joomtheme.com
 - **JED:** [JoomTheme on Joomla Extensions Directory](https://extensions.joomla.org/profile/profile/details/147240/)
+- **Extension:** [JT AI SEO Assistant on JED](https://extensions.joomla.org/extension/site-management/seo-a-metadata/jt-ai-seo-assistant/)
 
 ---
 
